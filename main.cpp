@@ -53,9 +53,9 @@ int main() {
     system("chcp 65001");
 
     int choice;
-    char word[37];
+    char word[38];
     cout << "Напишите слово (на Английском!):" << endl;
-    cin.getline(word, 37);
+    cin.getline(word, 38);
 
     while(true){
         cout << "Выберите операцию:\n"
